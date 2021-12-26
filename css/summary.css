@@ -1,0 +1,238 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width: 100%;
+}
+.part1{
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+}
+.part1_1{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 10%;
+}
+.part1_1 img{
+	margin-left: 45%;
+
+}
+h1{
+	font-size: 110px;
+	font-weight: 600;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	position: absolute;
+	text-align: center;
+	top: 73%;
+}
+.part1_2{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 37%;
+	margin-top: 3%;
+}
+.info_main{
+	font-size: 35px;
+	font-weight: 600;
+	font-family: 'Manrope';
+	letter-spacing: 5%;
+	text-align: center;
+}
+.info_text{
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Manrope';
+	letter-spacing: 5%;
+	text-align: center;
+}
+.part1_2 img{
+	position: absolute;
+	left: 25%;
+	top: 98%;
+}
+.part2{
+	width: 100%;
+	background-color: #314F9C;
+	margin: 18% auto;
+	height: 600px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+h2{
+	font-size: 50px;
+	font-weight: 600;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #fff;
+	left:10%;
+	top: 14%;
+	position: absolute;
+}
+.part2 p{
+	font-size: 45px;
+	font-weight: 500;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #fff;
+	left:10%;
+	top: 29%;
+	position: absolute;
+}
+.links{
+	position: absolute;
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	top: 64%;
+	left: 10%;
+}
+.part3{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.education{
+	display: flex;
+	flex-direction: column;
+}
+.part3_title1{
+	font-size: 45px;
+	font-weight: 600;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #000;
+	margin-top: -15%;
+	margin-left: 14%;
+}
+.education p{
+	font-size: 40px;
+	font-weight: 500;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #000;
+	margin-top: 4%;
+	margin-left: 14%;
+}
+.my_skills{
+	display: flex;
+	flex-direction: column;
+}
+.my_skills_info{
+	display: flex;
+	flex-direction: column;
+}
+.part3_title2{
+	font-size: 45px;
+	font-weight: 600;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #000;
+	margin-top: 4%;
+	margin-left: 14%;
+}
+
+.part3_2 img{
+	position: absolute;
+	right: 0;
+	top: 20%;
+}
+h4{
+	font-size: 42px;
+	font-weight: 600;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #314F9C;
+	margin-top: 4%;
+	margin-left: 14%;
+}
+.my_skills_info p{
+	font-size: 40px;
+	font-weight: 500;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #000;
+	margin-top: 2%;
+	margin-left: 18%;
+}
+.level{
+	display: flex;
+	flex-direction: column;
+}
+.level p{
+	font-size: 40px;
+	font-weight: 500;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #000;
+	margin-top: 2%;
+	margin-left: 18%;
+}
+.part4{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 1000px;
+	background-color: #314F9C;
+	margin-top: 6%;
+	
+
+}
+.part4_title{
+	font-size: 50px;
+	font-weight: 600;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #fff;
+	margin: 6% auto;	
+}
+.part4_project{
+	width: 80%;
+	height: 290px;
+	margin: 4% auto;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	padding: 3%;
+	border-radius: 20px;
+	justify-content: space-between;
+	align-items: center;
+	filter: drop-shadow(0 0 8px);
+}
+.part4_project p{
+	font-size: 35px;
+	font-weight: 500;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	color: #000;
+	
+	
+}
+.part5{
+	background-color: #314F9C;
+	height: 250px;
+	display: flex;
+}
+.part5 a{
+	width: 13%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 500;
+	font-family: 'Manrope';
+	letter-spacing: 7%;
+	margin: 10% auto;
+	text-align: center;
+}
